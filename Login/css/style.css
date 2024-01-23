@@ -1,0 +1,34 @@
+.hh-100{
+    height: 100vh;
+}
+body{
+    background-color: #576574;
+    font-family: 'Titillium Web', sans-serif;
+}
+#signupSpan{
+    cursor: pointer;
+
+}
+#signupSpan:hover{
+
+    border-bottom: 1px solid white;
+}
+
+.login-title{
+    color: antiquewhite;
+}
+#login{
+    background-color: #222f3e;
+     box-shadow: 0 0 2rem rgba(0, 0, 0,0.5);
+    
+}
+.signUp-title{
+    color:antiquewhite;
+}
+.inputbg:enabled{
+    background-color: transparent;
+    color: aliceblue;
+}
+.inputbg::placeholder{
+    color: gray;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: #222f3e;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.l-style{
+    font-weight: 400;
+    font-size: 20px;
+    color:rgb(202, 214, 225);
+    border: 1px solid rgb(93, 105, 117);
+    padding: 10px;
+    cursor: pointer;
+}
+.f-col{
+    font-size: 90px;
+    font-weight: 900;
+    color: rgb(151, 182, 213);
+}

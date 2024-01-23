@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Sign Up/css/all.min.css">
+    <link rel="stylesheet" href="Sign Up/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Sign Up/css/style.css">
+    <link rel="stylesheet" href="Sign Up/css/media.css">
+</head>
+<body>
+    <div class="hh-100 w-100  d-flex flex-wrap align-items-center justify-content-center">
+        <main id="signUp" class=" w-75 mx-auto ">
+            <h1 class="signUp-title text-center pt-5">Smart Login System</h1>
+            <div class="row">
+                <div class=" col-12 flex-wrap mb-4 mt-4 d-flex justify-content-center">
+                    <input oninput="validateName(this.value)" id="signUpName" placeholder="Enter Your Name" class="inputbg w-75 form-control mb-4" type="text" name="" id="">
+                    <input oninput="validateEmail(this.value)" id="signUpEmail" placeholder="Enter Your Email" class="inputbg w-75 form-control mb-4" type="text" name="" id="">
+                    <input oninput="validatePassword(this.value)" id="signUpPassword" placeholder="Enter Your Password" class="inputbg w-75 form-control mb-4" type="password" name="" id="">
+                    <h5 class=" w-75 emailInfo text-center d-none text-danger pb-3">This Email Already Exist</h5>
+                    <h5 class="w-75 allFeildsInfo text-center d-none text-danger pb-3">Please Fill All Fields</h5>
+                    <h5 class="w-75 signUpSuccess text-center d-none text-success pb-3">Sign Up Success</h5>
+                    <button id="signUpBtn" class="btn btn-outline-light w-50 p-3 mb-3" type="submit" >Sign Up</button>
+                    <h5 class="text-center text-white mb-5 w-100">You have an account? <span id="signinSpan" class="nav-underline">Sign In</span></h5>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+
+
+    <script src="Sign Up/css/bootstrap.min.css"></script>
+    <script src="Sign Up/js/main.js"></script>
+</body>
+</html>
